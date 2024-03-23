@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0e0d0def;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+.user-name{
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+    margin-right: 20px;
+}
+
+
+.nav-links ul,
+.user-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li,
+.user-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a,
+.user-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-links {
+    margin-left: auto;
+}
+.body2{
+    font-family: Arial, sans-serif;
+    background-color: #7f6d7b3a;
+    margin: auto;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #222;
+}
+video{
+    max-width: 70%;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.video {
+    margin-right: 20px;
+    text-align: right;
+   margin-top: 20px;
+   padding-right: 20px;
+}
+.text p {
+    text-align: left;
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#sisi {
+    float:left;
+}
+section{ float: right;
+
+}
+.text{
+    size: 50;
+}
